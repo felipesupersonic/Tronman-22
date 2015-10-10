@@ -24181,7 +24181,10 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.LocalStorage.prototype.acts.GetItem,
 	cr.plugins_.LocalStorage.prototype.cnds.OnItemGet,
 	cr.plugins_.LocalStorage.prototype.exps.ItemValue,
+	cr.plugins_.Audio.prototype.acts.Play,
+	cr.plugins_.Audio.prototype.acts.StopAll,
 	cr.plugins_.LocalStorage.prototype.exps.KeyCount,
-	cr.plugins_.LocalStorage.prototype.acts.CheckItemExists
+	cr.plugins_.LocalStorage.prototype.acts.CheckItemExists,
+	cr.plugins_.Audio.prototype.cnds.IsAnyPlaying
 ];};
 
